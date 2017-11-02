@@ -4,9 +4,9 @@
 }
 .d2{
 	display: inline;
-  line-height: 4;
+  line-height: 2;
   font-size: 100%;
-  font-weight: 400;
+  font-weight: 500;
   float: left;
   width: 17.5%;
   font-family: "圆体";
@@ -14,51 +14,51 @@
   color:gray;
 }
 .d2 .d2_after{
-  color: #5cceff;
-  border-bottom: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: #5cceff;
+  color: white ;
+  background-color: #00a5ed;
 }
 .d2_after{
-  color: #5cceff;
-  border-bottom: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: #5cceff;
+  color: white ;
+  background-color: #5cceff;
 }
 .d3 {
   width: 100%;
   left: 0;
   right: 0;
   position: absolute;
-  margin-top: 83.4px;
-  height: auto;
+  margin-top: 30px;
 }
 .icon{
   width:auto;
-  height: 80%;
-  float: left;
-  margin: 1%;
-  margin-left:0;
+  height:60%;
+  margin: 10%;
+  padding: 10%;
 }
 .d6
 {
-  height: 80px;
-  border-bottom: solid;
-  border-bottom-width: thin;
-  border-bottom-color: rgba(194, 194, 194, 0.7);
+  height: 90px;
+  border-bottom-right-radius:10px;
+  border-top-right-radius: 10px;
+  width:80%;
+  margin-left: 16%;
+  margin-top: 10px;
 }
 .a{
   text-decoration: none;
   text-decoration-color: black;
 }
 .d7{
-  text-align: center;
-  width:100%;
+  text-align: right;
+  float: right;
+  display: inline-block;
+  height:80px;
+  margin-right: 5%;
 }
 .h1{
-  color: black;
+  color: white;
   font-family: 圆体;
   font-size: 140%;
+  float: right;
 }
 .h2{
   font-size: 178.1818%;
@@ -67,7 +67,7 @@
 }
 .p1{
   font-size:70%;
-  color: gray;
+  color:#e9e9e9;
 }
 .p2{
   font-size: 55%;
@@ -96,7 +96,48 @@
 }
 .d8{
   text-align: center;
-  color: lightgray;
+  color: #a9a9a9;
   font-size: 58%;
-
+  width:100%;
+}
+.d9{
+  border-radius: 50%;
+  height:100%;
+  width:90px;
+  display: inline-block;
+  float: left;
+  margin-left: -45px;
+}
+body{
+  background-color: #e9e9e9;
+}
+.d6.d61{
+  background:linear-gradient(to right, #0074cc, #009ae6, #00a5ed);
+}
+.d9.d91{
+  background-color: #00a5ed;
+}
+.d6.d62{
+  background:linear-gradient(to right,#397dd2, #4dbdd7,#53c9d9 );
+}
+.d9.d92{
+  background-color: #53c9d9;
+}
+.d6.d63{
+  background:linear-gradient(to right, #6abe47, #75c754, #81d161);
+}
+.d9.d93{
+  background-color: #81d161;
+}
+.d6.d64{
+  background:linear-gradient(to right, #cdc249, #d8cc56, #e3d864);
+}
+.d9.d94{
+  background-color: #e3d864;
+}
+.d6.d65{
+  background:linear-gradient(to right, #d5954f, #e0a15f, #e3a564);
+}
+.d9.d95{
+  background-color: #e3a564;
 }
